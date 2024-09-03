@@ -17,6 +17,8 @@ public class Temp {
 
 	public static void main(String[] args) {
 		System.out.println("change by other person");
+		System.out.println("change by me from ide");
+		
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		

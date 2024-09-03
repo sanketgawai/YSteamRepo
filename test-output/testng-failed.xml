@@ -6,7 +6,7 @@
       <class name="test.LoginTest">
         <methods>
           <include name="pomClassObject"/>
-          <include name="loginandCheckErrormessage" invocation-numbers="1 2"/>
+          <include name="loginandCheckErrormessage" invocation-numbers="0"/>
           <include name="openBrowser"/>
           <include name="openApplication"/>
         </methods>

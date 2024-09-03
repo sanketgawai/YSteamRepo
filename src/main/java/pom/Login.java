@@ -49,7 +49,7 @@ public class Login {
 	
 	public void clickOnSignUpButton() {
 		FunctionalCls.waitForElementToVisible(driver, rememberMeCheckbox);
-		rememberMeCheckbox.click();
+		//rememberMeCheckbox.click();
 		signUpButton.click();
 	}
 	

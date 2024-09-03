@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T14:27:06 IST" name="Suite" finished-at="2024-08-29T14:27:20 IST" duration-ms="14774">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T14:27:06 IST" name="Test" finished-at="2024-08-29T14:27:20 IST" duration-ms="14774">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:06 IST" name="openBrowser" finished-at="2024-08-29T14:27:07 IST" duration-ms="1374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="pomClassObject()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:07 IST" name="pomClassObject" finished-at="2024-08-29T14:27:07 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pomClassObject -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:07 IST" name="openApplication" finished-at="2024-08-29T14:27:09 IST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="checkUrl()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:09 IST" name="checkUrl" finished-at="2024-08-29T14:27:10 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:11 IST" name="openApplication" finished-at="2024-08-29T14:27:11 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginandCheckErrormessage(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:11 IST" name="loginandCheckErrormessage" data-provider="validCredentialsSupplier" finished-at="2024-08-29T14:27:14 IST" duration-ms="2405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaido@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kaido123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandCheckErrormessage -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:14 IST" name="openApplication" finished-at="2024-08-29T14:27:15 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginandCheckErrormessage(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:15 IST" name="loginandCheckErrormessage" data-provider="validCredentialsSupplier" finished-at="2024-08-29T14:27:17 IST" duration-ms="2462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[zoro@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zoro123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandCheckErrormessage -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:17 IST" name="openApplication" finished-at="2024-08-29T14:27:18 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginandCheckErrormessage(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@393671df]" started-at="2024-08-29T14:27:18 IST" name="loginandCheckErrormessage" data-provider="validCredentialsSupplier" finished-at="2024-08-29T14:27:20 IST" duration-ms="2503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luffy@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[luffy123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginandCheckErrormessage -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
